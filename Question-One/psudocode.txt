@@ -1,0 +1,18 @@
+Input
+  List of object that we want to add with
+  Name= String
+  Price=Double
+  Quantity=Int
+  Name of item that we want to delete=String
+Process
+  -Define a function add_item that accept name, price, quantity as parameter
+   Iterate through the list and check the name of the item.
+   If name of the item is existed we update the quantity only
+   else add the item detail to the list of object.
+  -Define a function remove that accept name as parameter.
+   iterate through the list if the name is existed and if the name is existed remove item
+   else return item is not found.
+  -Define a function total cost that calculate total cost of the item
+   by multiply the price and quantity of the item.
+Output
+ Total cost of the item=Double

@@ -1,0 +1,25 @@
+Input
+
+User id=Int name=string
+Project information ID=Int  name=string start date= string  end date=string
+Task information id=Int  name=string  projectid=Int assigned to=string deadline=string status project id=int
+
+process
+
+Step 1: define a list of object called task that accept all the task information.
+step 2 : if new task created save with its details.
+step 3 :then notify the assigned user that they have a a new task and return the new task id.
+step 4 :define list of object called project that accept all project information.
+step 5 : when new project is created generate a a unique id start, end date and save it.
+step 6 : define a method  add task to update or add a tasks status and fetchs the task id and save the updated task.
+step 7 :if the task marked as completed find the task that depend on it and notify thier assignes that dependency is cleared.
+step 8 :  define a function called report to generate a report for a project and fetch the projec and all its tasks.
+step 9 : for each task print its name, status, assigned user and deadline .
+step 10 : summarize the number of task completeed ,inprogress and not started.
+step 11 : return the report.
+
+   output
+   
+Task/project heirarchy view
+assignment and update report
+dependecy of the task
